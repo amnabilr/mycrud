@@ -1,0 +1,90 @@
+CRITICAL - 2023-06-07 08:01:53 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:09:09 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:12:53 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:13:29 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:17:36 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:17:53 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:20:00 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:26:41 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:27:52 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 08:30:33 --> Class "Locale" not found
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(null, null, null)
+ 2 SYSTEMPATH/Debug/Toolbar.php(380): CodeIgniter\I18n\Time::now()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 5 SYSTEMPATH/CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('/', 'after')
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

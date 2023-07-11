@@ -1,0 +1,138 @@
+CRITICAL - 2023-05-19 09:51:51 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-05-19 08:17:25 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4_pratice', 3306, '', 0)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\my-crud\app\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+#9 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\my-crud\app\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+#7 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-19 08:17:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4_pratice'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `person`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\my-crud\\public\\index.php')
+ERROR - 2023-05-19 08:17:53 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4_pratice', 3306, '', 0)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\my-crud\app\Models\BookModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\my-crud\app\Controllers\Book.php(27): App\Models\BookModel->getBook()
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Book->getBook()
+#9 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#10 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\my-crud\app\Models\BookModel.php(23): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\my-crud\app\Controllers\Book.php(27): App\Models\BookModel->getBook()
+#7 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Book->getBook()
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#9 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-19 08:17:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4_pratice'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `book`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BookModel.php(23): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Book.php(27): App\Models\BookModel->getBook()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Book->getBook()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\my-crud\\public\\index.php')
+ERROR - 2023-05-19 08:17:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4_pratice', 3306, '', 0)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\my-crud\app\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+#9 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4_pratice' in C:\xampp\htdocs\my-crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\my-crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\my-crud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\my-crud\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\my-crud\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\my-crud\app\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+#7 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+#8 C:\xampp\htdocs\my-crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\my-crud\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\my-crud\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-19 08:17:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4_pratice'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `person`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Person.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Person->getPerson()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Person))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\my-crud\\public\\index.php')
